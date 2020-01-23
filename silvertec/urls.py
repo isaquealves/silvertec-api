@@ -19,5 +19,5 @@ from orders import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('/users/<uuid:userid>/orders', views.orders_by_user, name='user_orders')
+    path('users/<uuid:userid>/orders', views.orders_list, name='user_orders')
 ]
