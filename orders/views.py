@@ -1,3 +1,0 @@
-
-def orders_by_user(request):
-    ...
