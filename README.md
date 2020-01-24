@@ -13,3 +13,7 @@ Dependencies should be installed before running the commands specified below.
 After this, go to application root directory and run:
 
 ``` python manage.py runserver ```
+
+---
+
+All commits after **70b3a75** should not be counted as part of the challenge itself as they consist in personal practice
